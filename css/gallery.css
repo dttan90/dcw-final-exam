@@ -1,0 +1,36 @@
+.gallery {
+    width: 100%;
+}
+
+.gallery-1 {
+    float: left;
+}
+
+.gallery-2 {
+    float: left;
+}
+
+.gallery-3 {
+    float: right;
+}
+
+.gallery-box {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.date {
+    text-align: right;
+}
+
+.img-fixed {
+    height: 224px;
+    width: 336px;
+}

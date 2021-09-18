@@ -1,0 +1,133 @@
+body {
+    background: url("../images/head-bg.webp");
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    /* font-family: Roboto; */
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+div {
+    display: block;
+}
+
+#container {
+    width: 99%;
+    min-height: 600px;
+    display: inline-block;
+    position: relative;
+}
+
+#header {
+    display: -webkit-inline-box;
+    text-align: center;
+}
+
+#left-header {
+    float: left;
+    width: 30%;
+}
+
+#right-header {
+    float: right;
+    position: relative;
+}
+
+
+/* 
+#container {
+    width: 99%;
+    min-height: 600px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+#header {
+    height: 110px;
+    display: -webkit-box;
+} 
+
+#left-header {
+    float: left;
+    width: 32%;
+}
+
+#right-header {
+    float: right;
+}
+
+
+
+*/
+
+#main-content {
+    background: none;
+    min-height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#main-menu {
+    width: 100%;
+}
+
+.box {
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#main-page {
+    background: white;
+    color: black;
+    border: 1px solid blue;
+    border-radius: 3em;
+    width: 80%;
+    min-height: 400px;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.main-title {
+    color: #F8C800;
+    font-size: 30px;
+    font-weight: 700 !important;
+}
+
+.normal-list {
+    list-style-type: disc;
+    margin: 10px;
+    padding: 10px;
+    overflow: visible;
+    background: none;
+}
+
+.normal-list li {
+    clear: both;
+}

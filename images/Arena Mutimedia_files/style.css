@@ -1,0 +1,146 @@
+body {
+    background: url("../images/head-bg.webp");
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    /* background: turquoise; */
+    min-height: 600px;
+    text-align: center;
+}
+
+#header {
+    /* background: tomato; */
+    height: 110px;
+}
+
+#main-content {
+    background: none;
+    min-height: 400px;
+    padding: 50px;
+    margin: 50px;
+    text-align: left;
+}
+
+#left-header {
+    float: left;
+    width: 34%;
+}
+
+#right-header {
+    float: right;
+}
+
+#main-menu {
+    width: 100%;
+}
+
+.box {
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Sử dụng cho định dạng main menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #F8C800;
+}
+
+li {
+    float: left;
+    border-right: 0.1px dotted white;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 180px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: #00aeef;
+}
+
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F8C800;
+    width: 180px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background: #00aeef;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* 
+    Định dạng ul li giống như button 
+    Áp dụng cho nội dung Tìm hiểu ngay
+*/
+
+.btn-list {
+    text-align: right;
+    color: blue;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-list li {
+    display: inline;
+    margin: 0 12px;
+    /* Làm cho nội dung chữ READ MORE nằm giữa khối */
+    text-align: center;
+    border: none;
+}
+
+.btn-list li a {
+    background-color: #ffc600;
+    border-radius: 4em;
+    color: #fff;
+    /* Tạo khối cho READ MORE */
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    min-width: 120px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.btn-list li a:hover {
+    background-color: #00aeef;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Các meta (siêu dữ liệu) -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Tiêu đề hiển thị trên thanh địa chỉ trình duyệt -->
+    <title>Arena Mutimedia</title>
+
+    <!-- icon trên thanh địa chỉ trình duyệt -->
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <!-- Sử dụng font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/button-list.css">
+
+</head>
+
+<body>
+    <!--/
+        Lưu ý: 
+        + Sau khi mở 1 thẻ html phải tạo ngay thẻ đóng để tránh việc quên đóng thẻ - dẫn đến sai sót.
+        + Thụt đầu dòng (format) code cho hợp lý.
+        + Thường xuyên sử dụng comment để ghi nhớ code
+    /-->
+    <div id="container">
+
+        <!-- id header -->
+        <div id="header">
+
+            <div id="left-header" class="box">
+
+                <a href="index.html"><img src="./images/logo-2.webp" width="325px" height="60px" alt="Header Logo"></a>
+
+            </div>
+
+            <div id="right-header" class="box">
+
+                <div id="main-menu">
+                    <ul>
+                        <li>
+                            <a href="./gioi-thieu.html"> Giới thiệu</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-btn"> Đào tạo - Tuyển sinh</a>
+                            <div class="dropdown-content">
+                                <a href="./chuong-trinh-dao-tao.html">Đào tạo</a>
+                                <a href="./tuyen-sinh.html">Tuyển sinh</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./gallery.html"> Gallery</a>
+                        </li>
+                        <li>
+                            <a href="./tin-tuc.html"> Tin tức - Sự kiện</a>
+                        </li>
+                        <li>
+                            <a href="#"> Liên thông - Việc làm</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- id main content -->
+        <div id="main-content">
+            <div style="position: relative; left: -255px;">
+                <img src="./images/head-text.webp">
+            </div>
+
+            <div style="position: relative; left: 60px;">
+                <ul class="btn-list" style="text-align: center;">
+                    <li><a href="./chuong-trinh-dao-tao.html">tìm hiểu ngay</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

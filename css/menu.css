@@ -1,0 +1,58 @@
+/* Sử dụng cho định dạng main menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #F8C800;
+}
+
+li {
+    float: left;
+    border-right: 0.1px dotted white;
+}
+
+li.dropdown {
+    display: inline-block;
+    width: 180px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: #00aeef;
+}
+
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F8C800;
+    width: 180px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background: #00aeef;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
